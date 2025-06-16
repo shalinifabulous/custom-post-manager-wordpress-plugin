@@ -1,0 +1,1 @@
+# custom-post-manager-wordpress-plugin
