@@ -1,0 +1,32 @@
+# Ignore WordPress core files if working inside wp-content/plugins
+/wp-admin/
+/wp-includes/
+/wp-config.php
+/.htaccess
+/license.txt
+/readme.html
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+wp-content/themes/*
+!wp-content/plugins/custom-post-manager/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Composer/Node modules (if using)
+vendor/
+node_modules/
+
+# OS-generated files
+*.bak
+*.swp
+*.tmp
